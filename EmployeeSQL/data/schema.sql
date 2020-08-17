@@ -27,17 +27,17 @@ create table salaries(
 );
 create table employees(
 	emp_no int,
-	emp_title varchar,
+	title_id varchar,
 	birth_date varchar,
 	first_name varchar,
 	last_name varchar,
-	sex varchar(2),
+	sex varchar,
 	hire_date varchar
 );
 create table titles(
 	title_id varchar,
 	title varchar
 );
-
-select * from titles
+--test table
+select * from employees
 ---------------------------------
